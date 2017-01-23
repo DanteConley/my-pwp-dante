@@ -4,7 +4,6 @@
 	<head>
 		<title>Dante C. PWP</title>title>
 	</head>
-</html>
 
 <body>
 
@@ -45,10 +44,14 @@
 	<header>
 		<strong>Use Case:</strong>
 	</header>
+
 	<p>
 		I responded to an ad Lester had on Craigslist with an email. Lester reads my resume that I attached to the email
 		and decides I could possibly be a good fit for the job. To learn a bit more about me and to see the skills I
 		bragged about in my email, he decides to check out my website. Pleased with what he sees he plans to call me
 		Monday on a phone number I have listed under the contact information I have on the page.
 	</p>
+
 </body>
+
+</html>
