@@ -2,7 +2,7 @@
 <html lang="en">
 
 	<head>
-		<title>Dante C. PWP</title>title>
+		<title>Dante C. PWP</title>
 	</head>
 
 <body>
