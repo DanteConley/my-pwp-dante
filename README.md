@@ -25,3 +25,27 @@ Second, our guidelines for PWP usually require a single page, and from what I've
 
 
 Fantastic job overall. You've passed Milestone 1 with Tier IV. Keep up the good work with the next milestones.
+
+
+
+
+
+## Milestone 1 Feedback
+
+Directory Structure and HTML - Directory structure is still perfect, and you added the needed stuff to your head. Good job on this.
+
+I like the idea presented by your content strategy. You want it to be "simple, but visually appealing," so think about ways to do that properly. You want it to interest people so they don't get bored quickly, but you may need to think of ways to do that with the limited content. I think your idea of a gallery showcasing your art is a great way to keep them interested. Your contact info at the bottom of the page will actually be a contact form that you build and place directly on your site. We'll go over that in class more, but think of ways to implement that into the final design. 
+
+Your desktop wireframe looks good - the division of content in that format looks appealing, and I'm sure with a little extra styling and good color choices, it could look very nice. Your mobile wireframe looks a little messy to me. It looks scrolled over to the right - maybe this was an issue with the wireframe that happened during an export from the site/upload to your pwp? Make sure that the design is set up properly and keep in mind that you'll need to think of a good way to display the image gallery that you want to implement and how you want it to look on a mobile device. Your mobile wireframe also looks like it's missing a lot of the content that the desktop view has. I think it would be beneficial to have the same content for both, just set up differently depending on screen size. 
+
+I would also suggest including a navigation bar at the top, that the user could use to scroll through the page using anchor tags. You could also include links to things such as a downloadable resume, or links to social media. For the Social Media icons, have a look Font Awesome. Very easy to use, simple and straightforward. http://fontawesome.io/
+
+You may want to consider using an image slider to feature pictures of the art. The Bootstrap framework does have an image slider included, but it's not that great. If this is a feature you're interested in having on the site, take a look at the Flickity Slider, the Owl Carosel or Slick. These are only a few of many available slider options out there, and these are mobile/touch friendly.
+
+For custom fonts, I recommend using Google Fonts
+
+Prior to our in-class coverage on the Bootstrap framework, have a look at the Official Bootstrap Documentation and the Deep Dive Bootstrap Material.
+
+When you do begin development, you'll build your page on index.php directly inside your /public_html directory.
+
+### Nice work. Work on your mobile design. Due to the late submission, you are receiving a Tier II grade, but know that you did very well on the overall Milestone 2a guidelines, and I'm excited to see where your design goes.
