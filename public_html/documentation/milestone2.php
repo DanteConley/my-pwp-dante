@@ -24,9 +24,9 @@
 			can get ahold of me. Overall the page will be pretty simple, but visually appealing.
 		</p>
 
-		<img src="images/Trill Wax.jpg" width="350" height="350" alt="TriLLwax"><br><br>
+		<img src="images/Web.png"><br><br>
 
-		<img src="images/Trill Wax.jpg" width="350" height="350" alt="TriLLwax"><br><br>
+		<img src="images/Mobile.png"><br><br>
 
 	</body>
 
