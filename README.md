@@ -30,7 +30,7 @@ Fantastic job overall. You've passed Milestone 1 with Tier IV. Keep up the good 
 
 
 
-## Milestone 1 Feedback
+## Milestone 2 Feedback
 
 Directory Structure and HTML - Directory structure is still perfect, and you added the needed stuff to your head. Good job on this.
 
