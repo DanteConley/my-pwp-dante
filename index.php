@@ -18,7 +18,7 @@
 				background-color: black;
 			}
 
-			h1 {
+			h1, h4 {
 				background-color: #000000;
 				color: #FFFFFF;
 				margin: 25px;
@@ -71,14 +71,29 @@
 			<h1>
 				Sights
 			</h1>
+			<!--Add Flickity-->
 
 			<h1>
 				Sounds
+				<iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fsticky_d&color=white_transparent&size=32" style="width: 32px; height: 32px;"></iframe>
 			</h1>
+
+			<h4>
+				<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179394166&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+			</h4>
 
 			<h1>
 				Contact
 			</h1>
+
+			<h4>
+			email: contact@danteconley.com<br><br>
+			skype: contact@danteconley.com<br><br>
+			phone: 5O5.2O6.97O3<br>
+			</h4>
+
+
+
 
 
 
