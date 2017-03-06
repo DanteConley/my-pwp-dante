@@ -19,6 +19,9 @@ $(document).ready(function(){
 				email: true,
 				required: true
 			},
+			subject: {
+				required: true
+			},
 			message: {
 				required: true,
 				maxlength: 2000
@@ -33,6 +36,9 @@ $(document).ready(function(){
 			email: {
 				email: "Please enter a valid email address.",
 				required: "Please enter a valid email address."
+			},
+			subject: {
+				required: "Please enter a subject."
 			},
 			message: {
 				required: "Please enter a message.",
