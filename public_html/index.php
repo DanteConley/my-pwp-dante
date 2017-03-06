@@ -26,7 +26,7 @@
 		<!-- Google reCAPTCHA -->
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.css">
 
 	</head>
 
