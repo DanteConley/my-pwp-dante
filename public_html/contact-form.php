@@ -4,7 +4,7 @@
 	<head>
 
 		<title>
-			Dante Conley
+			Let's collab, Bro
 		</title>
 
 		<meta charset="utf-8"/>
@@ -55,7 +55,7 @@
 					<span class="sr-only">main menu</span>
 					<span class="glyphicon glyphicon-menu-hamburger"></span>
 				</button>
-				<a class="navbar-brand" href="index.php">¥£$!</a>
+				<a class="navbar-brand" href="index.php">Dante Conley</a>
 			</div>
 
 			<!-- here are your main nav links, grouped for toggling -->
@@ -68,59 +68,60 @@
 		</nav>
 	</head>
 
-	<body>
+	<div class="container">
+	<h1>
+		Collaborate
+	</h1>
 
-		<div class="container">
-			<div class="row">
-			<h1>
-				Dante Conley
-			</h1>
-				<p>I like to make things.</p>
-			</div>
-		</div>
-
-
-		<div class="container">
-			<div class="row">
-		<h1>
-			Sights
-		</h1>
-
-				<div class="embed-responsive embed-responsive-16by9">
-					<iframe class="embed-responsive-item" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fdigitaldesert.events%2Fvideos%2F754172264747754%2F&show_text=0&width=560"></iframe>
+	<!--Begin Contact Form-->
+	<form id="contact-form" action="php/mailer.php" method="post">
+		<div class="form-group">
+			<label for="name">Name</label>
+			<div class="input-group">
+				<div class="input-group-addon">
+					<i class="fa fa-user" aria-hidden="true"></i>
 				</div>
-				<br><br>
-
-			<h1>
-				Sounds
-				<iframe allowtransparency="true" scrolling="no" frameborder="no"
-						  src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fsticky_d&color=white_transparent&size=32"
-						  style="width: 32px; height: 32px;">SoundCloud Link
-				</iframe>
-			</h1>
-
-
-				<iframe width="100%" height="166" scrolling="no" frameborder="no"
-						  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179394166&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false">
-					Warm My Bones
-				</iframe>
-				<br><br>
-
-				<iframe width="100%" height="166" scrolling="no" frameborder="no"
-						  src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/90678528&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false">
-					Doin' Real Bad
-				</iframe>
-				<br><br>
-		</div>
-		</div>
-
-		<footer class="footer">
-			<div class="container">
-				<i class="text-muted">Thank's for checkin' me out!</i>
+				<input type="text" class="form-control" id="name" name="name" placeholder="Name">
 			</div>
-		</footer>
+		</div>
+		<div class="form-group">
+			<label for="email">Email</label>
+			<div class="input-group">
+				<div class="input-group-addon">
+					<i class="fa fa-envelope" aria-hidden="true"></i>
+				</div>
+				<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="subject">Subject</label>
+			<div class="input-group">
+				<div class="input-group-addon">
+					<i class="fa fa-pencil" aria-hidden="true"></i>
+				</div>
+				<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="message">Message</label>
+			<div class="input-group">
+				<div class="input-group-addon">
+					<i class="fa fa-comment" aria-hidden="true"></i>
+				</div>
+				<textarea class="form-control" rows="5" id="message" name="message"
+							 placeholder="What should we create?"></textarea>
+			</div>
+		</div>
 
-	</body>
+		<!-- reCAPTCHA -->
+		<div class="g-recaptcha" data-sitekey="6LfvXxcUAAAAAPJLSMEi7olCqiCpRgPS8fwFraUY"></div>
 
+		<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+	</form>
 
-</html>
+	<!--empty area for form error/success output-->
+	<div class="row">
+		<div class="col-xs-12">
+			<div id="output-area"></div>
+		</div>
+	</div>

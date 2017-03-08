@@ -19,9 +19,6 @@ $(document).ready(function(){
 				email: true,
 				required: true
 			},
-			subject: {
-				required: true
-			},
 			message: {
 				required: true,
 				maxlength: 2000
@@ -31,17 +28,14 @@ $(document).ready(function(){
 		// error messages to display to the end user
 		messages: {
 			name: {
-				required: "Please enter your name."
+				required: "Please let me know who I'm talking to."
 			},
 			email: {
 				email: "Please enter a valid email address.",
 				required: "Please enter a valid email address."
 			},
-			subject: {
-				required: "Please enter a subject."
-			},
 			message: {
-				required: "Please enter a message.",
+				required: "We need to communicate to create!",
 				maxlength: "2000 characters max."
 			}
 		},
