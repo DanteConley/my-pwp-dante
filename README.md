@@ -12,9 +12,6 @@ Keeping with the near perfect course of your Milestone 1, your Use Case is great
 
 Last but not least, your directory structure and your HTML is perfect.
 
-
-
-
 ### Edits &amp; Suggestions
 
 There were a few things I noticed on your site, as well as some things I want to mention so you can think about it during development.
@@ -23,12 +20,7 @@ The first thing I want to mention is some spelling errors in your Persona (hence
 
 Second, our guidelines for PWP usually require a single page, and from what I've read here, you have no reason for more than one page. Think about how you're going to incorporate all parts of your site onto one attractive page as you begin development.
 
-
 Fantastic job overall. You've passed Milestone 1 with Tier IV. Keep up the good work with the next milestones.
-
-
-
-
 
 ## Milestone 2 Feedback
 
@@ -49,3 +41,10 @@ Prior to our in-class coverage on the Bootstrap framework, have a look at the Of
 When you do begin development, you'll build your page on index.php directly inside your /public_html directory.
 
 ### Nice work. Work on your mobile design. Due to the late submission, you are receiving a Tier II grade, but know that you did very well on the overall Milestone 2a guidelines, and I'm excited to see where your design goes.
+
+## Milestone 3 / Final PWP Feedback
+Beautiful job on your PWP - your layout looks great on desktop and mobile, and your contact form appears to work perfectly on my end, so check and see if you got my test message. 
+
+You might want to consider using Bootstrap column classes inside your rows to add some additional padding/margin on the mobile view.
+
+Congratulations on a PWP well done. This is a great example of effective execution of a straightforward design concept. Your PWP passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/)
